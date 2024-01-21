@@ -9,17 +9,17 @@ Created on Thu Dec 28 01:20:29 2023
 #from pybrain.structure import LinearLayer, SigmoidLayer, BiasUnit
 #from pybrain.structure import FullConnection
 
-from numpy import random 
+#from numpy import random 
 
 
-import random
-import sys, numpysys.modules["scipy.random"] = numpy.random
-import pybrain
-sys.modules[name] = pybrain
+#import random
+#import sys, numpysys.modules["scipy.random"] = numpy.random
+#import pybrain
+#sys.modules[name] = pybrain
 
-from pylearn.tools.shortcuts import buildNetwork
-mynetwork = buildNetwork(2, 3, 1)
-print(mynetwork)
+#from pylearn.tools.shortcuts import buildNetwork
+#mynetwork = buildNetwork(2, 3, 1)
+#print(mynetwork)
 
 
 rede = FeedForwardNetwork()
